@@ -1,22 +1,26 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Navbar from "./components/NavBar";
+
+import Home from './views/Home';
+import Contacto from './views/Contacto';
+import NotFound from './views/NotFound';
 
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-          Edit <code>src/App.js</code> and save to reload.
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="desafio-happy-cake/" element={<Home />} />
+          <Route path="desafio-happy-cake/home" element={<Home />} />
+          <Route path="desafio-happy-cake/contacto" element={<Contacto />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
