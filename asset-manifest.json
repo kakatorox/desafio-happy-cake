@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.596461b9.css",
-    "main.js": "/static/js/main.a2062101.js",
-    "index.html": "/index.html",
-    "main.596461b9.css.map": "/static/css/main.596461b9.css.map",
-    "main.a2062101.js.map": "/static/js/main.a2062101.js.map"
+    "main.css": "/desafio-happy-cake/static/css/main.596461b9.css",
+    "main.js": "/desafio-happy-cake/static/js/main.7ef21239.js",
+    "index.html": "/desafio-happy-cake/index.html",
+    "main.596461b9.css.map": "/desafio-happy-cake/static/css/main.596461b9.css.map",
+    "main.7ef21239.js.map": "/desafio-happy-cake/static/js/main.7ef21239.js.map"
   },
   "entrypoints": [
     "static/css/main.596461b9.css",
-    "static/js/main.a2062101.js"
+    "static/js/main.7ef21239.js"
   ]
 }
