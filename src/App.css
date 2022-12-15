@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.navegador{
+  background-color: #dc3546;
+  color: #f8f9fb!important;
+}
+
+.botonForm {
+  background-color: #dc3546;
+  color: #f8f9fb !important;
+  border: #dc3546;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -3,14 +3,23 @@ import { Navbar, Container } from "react-bootstrap";
 
 export default function Navigation() {
     return (
-        <>
-            <Navbar bg="dark" variant="dark">
+            <Navbar className="navegador">
                 <Container className="justify-content-start">
-                    <Navbar.Brand>Happy Cake</Navbar.Brand>
-                    <Link to="/" className="text-white ms-3 text-decoration-none">Home</Link>
-                    <Link to="/contacto" className="text-white ms-3 text-decoration-none">Contacto</Link>
+                    <Link to="desafio-happy-cake/" className="text-white ms-3 text-decoration-none">
+                        🏠Home
+                    </Link>
+                    <Link to="desafio-happy-cake/contacto" className="text-white ms-3 text-decoration-none">
+                        📒Contacto
+                    </Link>
+                    <Navbar.Collapse className="justify-content-end">
+                        
+                            Happy Cake 🍰
+                        
+                    </Navbar.Collapse>
+                   
+      
                 </Container>
             </Navbar>
-        </>
+        
     );
 }
